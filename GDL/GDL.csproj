@@ -53,7 +53,7 @@
 		<!-- <None Include="..\.editorconfig" Link=".editorconfig" /> -->
 		<None Include="..\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
 		<!-- <None Include="..\Assets\icon.png" Pack="true" Visible="true" PackagePath="$(PackageIcon)" /> -->
-		<None Update="README.md" Pack="true" PackagePath="\" />
+		<None Update="..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 	<ItemGroup>
