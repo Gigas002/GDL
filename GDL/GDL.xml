@@ -1,0 +1,473 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GDL</name>
+    </assembly>
+    <members>
+        <member name="T:GDL.Extractors.Extractor">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.FileName">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Directory">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.BaseDirectory">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ParentDirectory">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ParentMetadata">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ParentSkip">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.PathRestrict">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.PathReplace">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.PathRemove">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.PathStrip">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.PathExtended">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ExtensionMap">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Skip">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Sleep">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.SleepExtractor">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.SleepRequest">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Username">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Password">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Netrc">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Cookies">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.CookiesUpdate">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Proxy">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.SourceAddress">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.UserAgent">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Browser">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Headers">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Ciphers">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Keywords">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.KeywordsDefault">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.UrlMetadata">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.PathMetadata">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.HttpMetadata">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.VersionMetadata">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.CategoryTransfer">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Blacklist">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Whitelist">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Archive">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ArchiveFormat">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ArchivePrefix">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ArchivePragma">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Postprocessors">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.PostprocessorOptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Retries">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.RetryCodes">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Timeout">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Verify">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Download">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Fallback">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ImageRange">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ChapterRange">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ImageFilter">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ChapterFilter">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ImageUnique">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ChapterUnique">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.DateFormat">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.Modules">
+            <inheritdoc/>
+        </member>
+        <member name="P:GDL.Extractors.Extractor.ModuleSources">
+            <inheritdoc/>
+        </member>
+        <member name="T:GDL.Extractors.IExtractor">
+            <summary>
+            Each extractor is identified by its category and subcategory. The category is the lowercase site name without any spaces or special characters, which is usually just the module name (pixiv, danbooru, ...). The subcategory is a lowercase word describing the general functionality of that extractor (user, favorite, manga, ...).
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.FileName">
+            <summary>
+            A format string to build filenames for downloaded files with.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Directory">
+            <summary>
+            A list of format strings to build target directory paths with.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.BaseDirectory">
+            <summary>
+            Directory path used as base for all download destinations.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ParentDirectory">
+            <summary>
+            Use an extractor's current target directory as base-directory for any spawned child extractors.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ParentMetadata">
+            <summary>
+            If true, overwrite any metadata provided by a child extractor with its parent's.
+            If this is a string, add a parent's metadata to its children's to a field named after said string.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ParentSkip">
+            <summary>
+                Share number of skipped downloads between parent and child extractors.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.PathRestrict">
+            <summary>
+            A string of characters to be replaced with the value of path-replace or an object mapping invalid/unwanted characters to their replacements for generated path segment names.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.PathReplace">
+            <summary>
+            The replacement character(s) for path-restrict
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.PathRemove">
+            <summary>
+            Set of characters to remove from generated path names.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.PathStrip">
+            <summary>
+            Set of characters to remove from the end of generated path segment names using str.rstrip()
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.PathExtended">
+            <summary>
+            On Windows, use extended-length paths prefixed with \\?\ to work around the 260 characters path length limit.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ExtensionMap">
+            <summary>
+            A JSON object mapping filename extensions to their replacements.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Skip">
+            <summary>
+            Controls the behavior when downloading files that have been downloaded before, i.e. a file with the same filename already exists or its ID is in a download archive.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Sleep">
+            <summary>
+            Number of seconds to sleep before each download.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.SleepExtractor">
+            <summary>
+            Number of seconds to sleep before handling an input URL, i.e. before starting a new extractor.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.SleepRequest">
+            <summary>
+            Minimal time interval in seconds between each HTTP request during data extraction.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Username">
+            <summary>
+            The username and password to use when attempting to log in to another site.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Password">
+            <summary>
+            The username and password to use when attempting to log in to another site.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Netrc">
+            <summary>
+            Enable the use of .netrc authentication data.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Cookies">
+            <summary>
+            Source to read additional cookies from.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.CookiesUpdate">
+            <summary>
+                If extractor.*.cookies specifies the Path of a cookies.txt file and it can be opened and parsed without errors, update its contents with cookies received during data extraction.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Proxy">
+            <summary>
+            Proxy (or proxies) to be used for remote connections.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.SourceAddress">
+            <summary>
+            Client-side IP address to bind to.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.UserAgent">
+            <summary>
+            User-Agent header value to be used for HTTP requests.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Browser">
+            <summary>
+            Try to emulate a real browser (firefox or chrome) by using their default HTTP headers and TLS ciphers for HTTP requests.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Headers">
+            <summary>
+            Additional HTTP headers to be sent with each HTTP request,
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Ciphers">
+            <summary>
+            List of TLS/SSL cipher suites in OpenSSL cipher list format to be passed to ssl.SSLContext.set_ciphers()
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Keywords">
+            <summary>
+            Additional name-value pairs to be added to each metadata dictionary.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.KeywordsDefault">
+            <summary>
+            Default value used for missing or undefined keyword names in format strings.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.UrlMetadata">
+            <summary>
+            Insert a file's download URL into its metadata dictionary as the given name.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.PathMetadata">
+            <summary>
+            Insert a reference to the current PathFormat data structure into metadata dictionaries as the given name.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.HttpMetadata">
+            <summary>
+            Insert an object containing a file's HTTP headers and filename, extension, and date parsed from them into metadata dictionaries as the given name.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.VersionMetadata">
+            <summary>
+            Insert an object containing gallery-dl's version info into metadata dictionaries as the given name.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.CategoryTransfer">
+            <summary>
+            ransfer an extractor's (sub)category values to all child extractors spawned by it, to let them inherit their parent's config options.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Blacklist">
+            <summary>
+            A list of extractor identifiers to ignore (or allow) when spawning child extractors for unknown URLs, e.g. from reddit or plurk.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Whitelist">
+            <summary>
+            A list of extractor identifiers to ignore (or allow) when spawning child extractors for unknown URLs, e.g. from reddit or plurk.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Archive">
+            <summary>
+            File to store IDs of downloaded files in. Downloads of files already recorded in this archive file will be skipped.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ArchiveFormat">
+            <summary>
+            An alternative format string to build archive IDs with.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ArchivePrefix">
+            <summary>
+            Prefix for archive IDs.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ArchivePragma">
+            <summary>
+            A list of SQLite PRAGMA statements to run during archive initialization.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Postprocessors">
+            <summary>
+            A list of post processors to be applied to each downloaded file in the specified order.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.PostprocessorOptions">
+            <summary>
+            Additional Postprocessor Options that get added to each individual post processor object before initializing it and evaluating filters.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Retries">
+            <summary>
+            Maximum number of times a failed HTTP request is retried before giving up, or -1 for infinite retries.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.RetryCodes">
+            <summary>
+            Additional HTTP response status codes to retry an HTTP request on.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Timeout">
+            <summary>
+            Amount of time (in seconds) to wait for a successful connection and response from a remote server.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Verify">
+            <summary>
+            Controls whether to verify SSL/TLS certificates for HTTPS requests.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Download">
+            <summary>
+            Controls whether to download media files.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Fallback">
+            <summary>
+                Use fallback download URLs when a download fails.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ImageRange">
+            <summary>
+            Index range(s) selecting which files to download.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ChapterRange">
+            <summary>
+            Like image-range, but applies to delegated URLs like manga chapters, etc.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ImageFilter">
+            <summary>
+            Python expression controlling which files to download.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ChapterFilter">
+            <summary>
+            Like image-filter, but applies to delegated URLs like manga chapters, etc.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ImageUnique">
+            <summary>
+            Ignore image URLs that have been encountered before during the current extractor run.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ChapterUnique">
+            <summary>
+            Like image-unique, but applies to delegated URLs like manga chapters, etc.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.DateFormat">
+            <summary>
+            Format string used to parse string values of date-min and date-max.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.Modules">
+            <summary>
+            List of internal modules to load when searching for a suitable extractor class. Useful to reduce startup time and memory usage.
+            </summary>
+        </member>
+        <member name="P:GDL.Extractors.IExtractor.ModuleSources">
+            <summary>
+            List of directories to load external extractor modules from.
+            </summary>
+        </member>
+    </members>
+</doc>

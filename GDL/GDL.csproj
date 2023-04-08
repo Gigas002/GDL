@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<VersionPrefix>0.1.0</VersionPrefix>
+		<VersionSuffix>preview.0</VersionSuffix>
+		<AssemblyVersion>0.1.0.0</AssemblyVersion>
+		<FileVersion>0.1.0.0</FileVersion>
+		<Platforms>x64</Platforms>
+		<Configurations>Debug;Release</Configurations>
+		<!-- <PackageIcon>icon.png</PackageIcon> -->
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Authors>Gigas002</Authors>
+		<Description>Gallery-dl's config parsing lib</Description>
+		<Copyright>Copyright © Gigas002 2023</Copyright>
+		<PackageProjectUrl>https://github.com/Gigas002/GDL</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gigas002/GDL</RepositoryUrl>
+		<PackageReleaseNotes>https://github.com/Gigas002/GDL/blob/master/CHANGELOG.md</PackageReleaseNotes>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<LangVersion>latest</LangVersion>
+		<PackageTags>gallery-dl json config</PackageTags>
+		<PackageId>GDL</PackageId>
+		<Product>GDL</Product>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- <Nullable>enable</Nullable> -->
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<!-- Build properties -->
+		<CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<DocumentationFile>GDL.xml</DocumentationFile>
+		<AnalysisMode>AllEnabledByDefault</AnalysisMode>
+		<EnableNETAnalyzers>true</EnableNETAnalyzers>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<!-- Release-specific properties -->
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Additional files -->
+		<!-- <None Include="..\.editorconfig" Link=".editorconfig" /> -->
+		<None Include="..\LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
+		<!-- <None Include="..\Assets\icon.png" Pack="true" Visible="true" PackagePath="$(PackageIcon)" /> -->
+		<None Update="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Dependencies -->
+		<PackageReference Include="Microsoft.SourceLink.Github" Version="1.1.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>
